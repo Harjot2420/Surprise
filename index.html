@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">For You, My Love ❤️</h1>
+        <p class="subtitle">Click on a rose to discover a message</p>
+        
+        <div class="bouquet" id="bouquet">
+            <!-- Roses will be added by JavaScript -->
+        </div>
+        
+        <div class="message-container hidden" id="messageContainer">
+            <div class="message-box">
+                <p id="messageText"></p>
+                <button id="closeBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="soundEffect" src="https://assets.mixkit.co/sfx/preview/mixkit-positive-interface-beep-221.mp3" preload="auto"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
